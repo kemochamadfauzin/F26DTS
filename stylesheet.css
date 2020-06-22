@@ -118,7 +118,7 @@ header {
   float: left;
   width: 50%;
   display: block;
-  border-bottom: 0px solid #eee;
+  border-bottom: 5px solid #eee;
 }
 
 /* Tambahkan CSS untuk feature-icon */

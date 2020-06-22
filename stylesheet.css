@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Voltaire', sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+   overflow: hidden;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  background-color: #00a8ff;
+  height: 90px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  height: 90px;
+  float: left;
+  width: 50%;
+}
+
+.header-right {
+  height: 90px;
+  float: right;
+  width: 50%;
+}
+
+.header-logo {
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+  padding: 20px 40px;
+}
+
+.bagian-utama {
+  background-color: #7277d5;
+  padding: 180px 0 100px 0;
+}
+
+.bagian-utama img{
+  margin-top: 60px;
+  height: 300px;
+  width: 50%;
+  float: left;
+}
+
+.bagian-utama h1{
+  margin-top: 60px;
+  margin-bottom: 0px;
+  width: 50%;
+  float: left;
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.bagian-utama p{
+  float: left;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+}
+
+.bagian-tambahan {
+  background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
+}
+
+.heading h2{
+  margin: 0 auto;
+  padding-top: 50px;
+  color: #5f5d60;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+  display: block;
+  border-bottom: 5px solid #eee;
+}
+
+/* Tambahkan CSS untuk feature-icon */
+.feature-icon img{
+  width: 20%;
+  float: left;
+  padding: 10px 10px;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam feature-icon */
+.feature-icon p {
+  margin: 0 auto;
+  width: 65%;
+  color: black;
+  float: left;
+}
+
+.feature p{
+  margin: 0 auto;
+  float: left;
+  width: 65%;
+}
+
+.harga {
+  background-color: #9c88ff;
+  /* Ubah property text-align ke center */
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.heading-harga h2{
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+}
+
+.heading-harga p{
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+}
+
+.price-list {
+  float: left;
+  width: 20%;
+  padding: 5px 10px;
+  background: #7277d5;
+  border-top: 4px solid #4E5298;
+  text-align: left;
+  margin: 20px 25px;
+}
+
+.price-list h1{
+  color: white;
+  text-align: center;
+}
+.price-list h3{
+  color: white;
+  text-align: center;
+}
+
+.lists {
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+.lists li{
+  color: white;
+  display: list-item;
+  padding: 8px;
+  border: 0px solid red;
+  margin-left: 0px;
+  font-size: 16px;
+  text-align: left;
+  list-style: none;
+}
+
+.lists li:before {
+  content: '✓';
+  margin-right: 5px;
+}
+
+.footer {
+  background-color: #ceccf3;
+  width: 100%;
+  height: 340px;
+}
+
+.footer-logo {
+  padding-top: 20px;
+}
+
+.footer-txt p{
+  margin: 0 auto;
+}

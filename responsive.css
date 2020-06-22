@@ -1,0 +1,129 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .bagian-tambahan {
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .bagian-utama {
+    background-color: #7277d5;
+    padding: 100px 0 20px 0;
+  }
+
+  .bagian-utama img{
+    margin-top: 60px;
+    padding-left: 30px;
+    height: 225px;
+    width: 50%;
+    float: left;
+  }
+
+  .bagian-utama h1{
+    margin-top: 60px;
+    padding-left: 30px;
+    width: 40%;
+    float: left;
+    font-size: 40px;
+    text-transform: capitalize;
+    display: block;
+  }
+
+  .bagian-utama p{
+    float: left;
+    font-size: 40px;
+    margin-top: 60px;
+    padding-left: 30px;
+    margin-top: 0px;
+    display: block;
+  }
+
+  .features {
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  .feature {
+    float: left;
+    width: 50%;
+    height: 250px;
+    display: block;
+  }
+
+  .price-list {
+    float: left;
+    width: 48%;
+    background: #7277d5;
+    border-top: 4px solid #4E5298;
+    text-align: left;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-logo {
+    font-size: 26px;
+    padding: 20px 40px;
+  }
+
+  .bagian-utama img{
+    margin-top: 60px;
+    padding-left: 30px;
+    height: 225px;
+    width: 100%;
+    float: none;
+  }
+
+  .bagian-utama h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 40px;
+    text-transform: capitalize;
+    display: block;
+    float: none;
+    background-color: #f7f7f7;
+  }
+
+  .bagian-utama p{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    float: none;
+    display: block;
+    background-color: #f7f7f7;
+  }
+
+  .features {
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  .feature {
+    width: 100%;
+    display: block;
+  }
+
+  .price-list {
+    width: 100%;
+    background: #7277d5;
+    border-top: 4px solid #4E5298;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
